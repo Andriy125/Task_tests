@@ -1,7 +1,10 @@
 # SportWP Project
 
-This repository contains SQL scripts for the SportWP project, which is a sports web portal. 
-In the file "1. Development and implementation of a database for a sports web portal.docx" you will find the requirements for the project.
+
+This repository contains SQL scripts for implementing a database for a sports web portal. 
+The file "1. Development and implementation of a database for a sports web portal.docx" you will find the requirements for the project.
+
+
 
 The project consists of three main SQL scripts:
 
