@@ -1,0 +1,45 @@
+ @media screen and (max-width: 768px) {
+        .mfield {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+
+    /* Блок з відповіддю */
+    .answer {
+        background-color: #eaf0ff;
+        padding: 20px;
+        border-radius: 15px;
+        color: #3C398C;
+        font-family: 'DreamSchoolBold';
+    }
+
+/* стилізація маркованого списку*/
+
+.custom-list {
+  list-style: none; /* Видаляємо стандартні маркери */
+  padding-block: 16px;
+  margin: 0;
+}
+
+.custom-list li {
+  position: relative; /* Для позиціювання псевдоелемента */
+  margin: 5px 0;
+  line-height: 1.6;
+  padding-inline-start: 16px;
+}
+
+.custom-list li p {
+  margin: 0;
+}
+
+.custom-list li::before {
+  content: ''; /* Створюємо крапку */
+  position: absolute;
+  margin-inline-start: -36px; /* Відстань від тексту до крапки */
+  top: 8px; /* Вирівнюємо вертикально */
+  width: 8px; /* Розмір крапки */
+  height: 8px; /* Розмір крапки */
+  background-color: #E9629E; /* Зелений колір */
+  border-radius: 50%; /* Кругла форма */
+}
